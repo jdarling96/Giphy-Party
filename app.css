@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: xx-large;
+    color: aliceblue;
+
+}
+
+#search-form {
+    display: flex;
+    justify-content:center ;
+}
