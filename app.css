@@ -13,5 +13,30 @@ h2 {
 
 #search-form {
     display: flex;
-    justify-content:center ;
+    justify-content:center;
+    
+}
+
+
+
+.search-text {
+    font-size: xx-large;
+    width: 10%;
+    border-radius: 5px;
+   
+
+}
+
+#remove-button{
+    background-color: ;
+}
+
+div{
+   
+    margin: 10%;
+   
+}
+
+#img{
+    margin: 2%;
 }
