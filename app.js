@@ -10,15 +10,19 @@ async function getGiphy(q) {
     //console.log(res.data.data)
     const img = document.createElement('img');
     img.id = 'img';
+    let gifArray = [];
+    //let randomNum = Math.floor(Math.random() * 25)
     for(let gif of res.data.data) {
-        //console.log(gif.images.downsized.url)
+      //console.log(gif.images.downsized.url)
         let nextImg = gif.images.downsized.url;
-        img.src = nextImg;
+        gifArray.push(nextImg)
+        console.log(gifArray)
+        };
 
-    }
-   div.append(img)
+   img.src = gifArray[Math.floor(Math.random() * 25)];
+   div.append(img);
 
-}
+};
 
 
 
@@ -36,6 +40,6 @@ button.addEventListener('click', function(){
     
     
     //div.removeChild(img);
-})
+});
 
 //getGiphy('dog');
